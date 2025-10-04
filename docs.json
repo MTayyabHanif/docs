@@ -27,12 +27,11 @@
           {
             "group": "Getting started",
             "pages": [
-              "getting-started/Who-are-we",
-              "getting-started/Why-checky-pro",
-              "getting-started/Pricing",
-              "getting-started/Security-compliance",
-              "getting-started/Technology",
-              "getting-started/Transparency-support"
+              "getting-started/Overview",
+              "getting-started/Create-account",
+              "getting-started/Setup-checkout",
+              "getting-started/Live-with-checkout",
+              "getting-started/Next-steps"
             ]
           },
           {
