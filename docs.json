@@ -16,7 +16,6 @@
           {
             "group": "Getting started",
             "pages": [
-              "getting-started/Who-are-we",
               "Why Checky Pro",
               "Pricing",
               "Security & compliance",
@@ -72,9 +71,7 @@
       }
     ],
     "global": {
-      "anchors": [
-       
-      ]
+      "anchors": []
     }
   },
   "logo": {
@@ -96,17 +93,14 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  
-      
-    
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   }
 }
