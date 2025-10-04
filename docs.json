@@ -8,6 +8,7 @@
     "dark": "#6356fe"
   },
   "favicon": "/favicon.png",
+
   "navigation": {
     "drilldown": false,
     "tabs": [
@@ -93,10 +94,12 @@
       "anchors": []
     }
   },
+
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
   },
+
   "navbar": {
     "links": [
       {
@@ -110,6 +113,7 @@
       "href": "https://app.checkypro.com/dashboard"
     }
   },
+
   "contextual": {
     "options": [
       "copy",
