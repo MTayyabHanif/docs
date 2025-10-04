@@ -9,12 +9,14 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
+    "drilldown": false,
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
             "group": "About Checky Pro",
+            "expanded": true,
             "pages": [
               "About/Who-are-we",
               "About/Why-checky-pro",
@@ -26,6 +28,7 @@
           },
           {
             "group": "Getting started",
+            "expanded": true,
             "pages": [
               "getting-started/Overview",
               "getting-started/Create-account",
@@ -36,6 +39,7 @@
           },
           {
             "group": "Customization",
+            "expanded": true,
             "pages": [
               "essentials/settings",
               "essentials/navigation"
@@ -43,6 +47,7 @@
           },
           {
             "group": "Writing content",
+            "expanded": true,
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -52,6 +57,7 @@
           },
           {
             "group": "AI tools",
+            "expanded": true,
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
@@ -65,12 +71,14 @@
         "groups": [
           {
             "group": "API documentation",
+            "expanded": true,
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
             "group": "Endpoint examples",
+            "expanded": true,
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
