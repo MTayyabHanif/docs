@@ -16,9 +16,12 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "Who are we",
+              "Why Checky Pro",
+              "Pricing",
+              "Security & compliance",
+              "Our technology",
+              "Transparency & support"
             ]
           },
           {
