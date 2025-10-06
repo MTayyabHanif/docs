@@ -1,5 +1,90 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "7. Connecting Shopify to Checky Pro"
 ---
 
+<ResponseField>
+  ### 7.1 Overview
+
+  This guide explains how to connect your Shopify store to your Checky Pro account.\
+  Once connected, Checky Pro will sync your store data in real time to provide insights, analytics, and reporting.
+</ResponseField>
+
+<ResponseField>
+  ### 7.2 Requirements
+
+  Before you begin, make sure you have:
+
+  1. An active **Checky Pro** account
+  2. **Admin access** to your Shopify store
+  3. A **stable internet connection**
+</ResponseField>
+
+<ResponseField>
+  ### 7.3 Log in to Checky Pro
+
+  1. Go to https://app.checkypro.com/login
+  2. Log in with your Checky Pro credentials
+</ResponseField>
+
+<ResponseField>
+  ### 7.4 Enter Your Shopify Store URL
+
+  1. Locate your Shopify store URL — it should look like:\
+     `yourstorename.myshopify.com`
+  2. Copy only the part **before** `.myshopify.com` (e.g. `yourstorename`)
+  3. Paste it into the input field in Checky Pro
+  4. Click **Continue**
+</ResponseField>
+
+<ResponseField>
+  ### 7.5 Authorize Checky Pro in Shopify
+
+  1. Log in to your **Shopify Admin**
+  2. Go to **Settings → Apps and sales channels**
+  3. Click **Develop apps**
+
+  ![68c32aae782d582e4ae50cfb_Develop apps.png](/images/68c32aae782d582e4ae50cfb_Developapps.png)
+
+  4. Click **Create an app**
+
+  ![68c32b8adc55f142feaa7bb1_Createanapp.png](/images/68c32b8adc55f142feaa7bb1_Createanapp.png)
+
+  5. Enter: **Checky Pro** as the app name
+  6. Click **Configure Admin API scopes**
+
+  ![68c32d322cc91a81f1ef00c4_Configureapiscopes.png](/images/68c32d322cc91a81f1ef00c4_Configureapiscopes.png)
+
+  7. Select the following permissions:
+
+  ![68c32ddb2cc91a81f1ef2fa7_Filterscopes.png](/images/68c32ddb2cc91a81f1ef2fa7_Filterscopes.png)
+
+  1. **Customers** → Read & Write
+  2. **Discounts** → Read & Write
+  3. **Draft orders** → Read & Write
+  4. **Orders** → Read & Write
+  5. **Products** → Read & Write
+  6. **Themes** → Read & Write
+  8. Click **Save**
+  9. Click **Install app**
+
+  ![68c32f705e406403a6dbcabe_installapp.png](/images/68c32f705e406403a6dbcabe_installapp.png)
+</ResponseField>
+
+<ResponseField>
+  ### 7.6 Copy API Credentials
+
+  - After installing the app, Shopify will generate credentials
+  - Copy the following:
+    - **API Access Token**
+    - **API Key**
+    - **API Secret Key**
+
+  ![download.png](/images/download.png)
+
+  ![download.png](/images/download.png)
+
+  - Go back to CheckyPro and paste these values into the corresponding fields **(Step 4 of the setup)**
+  - Click **Submit & Verify**
+
+  **Congratulations, you are all set!**
+</ResponseField>
