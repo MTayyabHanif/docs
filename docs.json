@@ -39,6 +39,20 @@
             ]
           },
           {
+            "group": "KYC & KYB",
+            "expanded": true,
+            "pages": [
+              "KYCKYB/Website-requirements",
+              "KYCKYB/Proof-of-identity",
+              "KYCKYB/Proof-of-address",
+              "KYCKYB/Prood-of-bank account",
+              "KYCKYB/Proof-of-domain",
+              "KYCKYB/Company-register-extract",
+              "KYCKYB/Supplier-history",
+              "KYCKYB/Processing-history"
+                          ]
+          },
+          {
             "group": "Customization",
             "expanded": true,
             "pages": [
