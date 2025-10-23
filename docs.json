@@ -40,6 +40,19 @@
               "getting-started/Next-steps"
             ]
           },
+           {
+            "group": "Integrations",
+            "expanded": true,
+            "pages": [
+              "Integrations/Overview",
+              "Integrations/Vivawallet",
+              "Integrations/Paypal",
+              "Integrations/Airwallex",
+              "Integrations/Pixels",
+              "Integrations/Troubleshooting",
+              "Integrations/FAQ"
+                          ]
+          },  
           
                       {
             "group": "Checkout",
@@ -73,21 +86,7 @@
               "Payments/FAQ"
                           ]
           },
-          
-          
-                      {
-            "group": "Integrations",
-            "expanded": true,
-            "pages": [
-              "Integrations/Overview",
-              "Integrations/Vivawallet",
-              "Integrations/Paypal",
-              "Integrations/Airwallex",
-              "Integrations/Pixels",
-              "Integrations/Troubleshooting",
-              "Integrations/FAQ"
-                          ]
-          },   
+           
           
           {
             "group": "KYC & KYB",
