@@ -15,6 +15,7 @@
       {
         "tab": "Guides",
         "groups": [
+          
           {
             "group": "About Checky Pro",
             "expanded": true,
@@ -27,17 +28,67 @@
               "About/Transparency-support"
             ]
           },
+          
           {
             "group": "Getting started",
             "expanded": true,
             "pages": [
               "getting-started/Overview",
               "getting-started/Create-account",
-              "getting-started/Setup-checkout",
-              "getting-started/Live-with-checkout",
+              "getting-started/Connect-Shopify",
+              "getting-started/Custom-subdomain",
               "getting-started/Next-steps"
             ]
           },
+          
+                      {
+            "group": "Checkout",
+            "expanded": true,
+            "pages": [
+              "Checkout/Overview",
+              "Checkout/Getting-started",
+              "Checkout/Branding-design",
+              "Checkout/Multilanguage",
+              "Checkout/Reviewbanner",
+              "Checkout/Troubleshooting",
+              "Checkout/FAQ"
+                          ]
+          },
+           
+          
+                      {
+            "group": "Payments",
+            "expanded": true,
+            "pages": [
+              "Payments/Overview",
+              "Payments/Getting-started",
+              "Payments/Onboarding-Verification",
+              "Payments/Security-compliance",
+              "Payments/Holds-Rolling-reserves",
+              "Payments/Payouts",
+              "Payments/Chargebacks-disputes",
+              "Payments/Reporting-analytics",
+              "Payments/Multicurrency",
+              "Payments/Troubleshooting",
+              "Payments/FAQ"
+                          ]
+          },
+          
+          
+                      {
+            "group": "Integrations",
+            "expanded": true,
+            "pages": [
+              "Integrations/Overview",
+              "Integrations/Vivawallet",
+              "Integrations/Paypal",
+              "Integrations/Airwallex",
+              "Integrations/Pixels",
+              "Integrations/Troubleshooting",
+              "Integrations/FAQ"
+                          ]
+          },   
+          
           {
             "group": "KYC & KYB",
             "expanded": true,
@@ -52,46 +103,7 @@
               "KYCKYB/Processing-history"
                           ]
           },
-          {
-            "group": "Customization",
-            "expanded": true,
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "expanded": true,
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "expanded": true,
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "expanded": true,
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
+           {
             "group": "Endpoint examples",
             "expanded": true,
             "pages": [
@@ -141,3 +153,5 @@
     ]
   }
 }
+
+          
