@@ -2,9 +2,11 @@
 title: "10. Connect Subdomain"
 ---
 
-<ResponseField>
-  ### 10.1 Introduction
+=
 
+### 10.1 Introduction
+
+<ResponseField>
   To give your customers a **fully branded checkout experience,** you can connect your own custom subdomain to Checky Pro.\
   This allows your checkout to appear under your brand (for example **checkout.yourstore.com**) instead of a generic third-party URL.
 
@@ -20,9 +22,9 @@ title: "10. Connect Subdomain"
   </Note>
 </ResponseField>
 
-<ResponseField>
-  ## 10.2 General setup overview
+## 10.2 General setup overview
 
+<ResponseField>
   Before starting, make sure you have:
 
   - Access to your domain provider’s DNS settings
@@ -38,11 +40,34 @@ title: "10. Connect Subdomain"
   </Tip>
 </ResponseField>
 
-<ResponseField>
-  ## 10.4 Shopify Domains
+## 10.3 Create subdomain
 
-  If your domain is hosted on Shopify, follow the steps below.
+Create a subdomain within **Checky Pro**
+
+<ResponseField>
+  ### 1. Add subdomain in Checky Pro
+
+  <Info>
+    1. **Log in** to your **Checky Pro**.
+    2. Go to **Settings** → **Custom** **domain**.
+    3. Fill in the **field**.
+
+    <Tip>
+      **Tip:** Use **"Pay"** or **"Checkout"**, to avoid complicated subdomains
+    </Tip>
+    ![Setting-domain.png](/images/Setting-domain.png)
+
+    4. Click **Add sub-domain**.
+    5. After clicking **Add sub-domain**, a verification screen will appear.\
+       This screen provides a **CNAME record** that you need to add to your DNS settings.
+
+    ![download.png](/images/download.png)
+  </Info>
 </ResponseField>
+
+## 10.4 Shopify Domains
+
+If your domain is hosted on Shopify, follow the steps below.
 
 <ResponseField>
   ### 1. Open DNS settings
@@ -88,13 +113,9 @@ title: "10. Connect Subdomain"
   </Warning>
 </ResponseField>
 
-<ResponseField>
-  ### 
-</ResponseField>
+## 10.5 GoDaddy Domains
 
 <ResponseField>
-  ## 10.5 GoDaddy Domains
-
   If your domain is hosted on GoDaddy, follow the steps below.
 </ResponseField>
 
@@ -126,7 +147,7 @@ title: "10. Connect Subdomain"
     4. Now go back to your Checky Pro dashboard and click **Verify.**
   </Info>
   <Warning>
-    **Tip:** Keep **DNS **clean\
+    **Tip:** Keep DNS clean\
     \
     If you already have an old **“checkout**” record in your **DNS**, remove or replace it before adding the new **CNAME**.\
     Duplicate records can cause conflicts and prevent verification.
@@ -134,22 +155,22 @@ title: "10. Connect Subdomain"
   ### 
 </ResponseField>
 
-<ResponseField>
-  ## 10.6 Troubleshooting (if verification fails)
+## 10.6 Troubleshooting (if verification fails)
 
+<ResponseField>
   If your subdomain doesn’t verify after a few hours, check the following:
 
   - Confirm your CNAME record points exactly to **in.saascustomdomains.com**.
   - Ensure there are no **duplicate** DNS records for the same **subdomain**.
   - Wait a little longer, some DNS providers take up to **24 hours** to update globally.
-  - Try clearing your **local **DNS cache or testing your domain using **dnschecker.org.**
+  - Try clearing your \*\*local \*\*DNS cache or testing your domain using **dnschecker.org.**
 
-  If you still have issues, contact **Checky Pro** support with a **screenshot **of your DNS record for assistance.
+  If you still have issues, contact **Checky Pro** support with a \*\*screenshot \*\*of your DNS record for assistance.
 </ResponseField>
 
-<ResponseField>
-  ## 10.7 Final notes
+## 10.7 Final notes
 
+<ResponseField>
   Connecting a custom subdomain allows your checkout to appear fully branded, giving customers a smooth and trustworthy payment experience.\
   Make sure your DNS record is correctly formatted, saved, and verified inside your Checky Pro dashboard.\
   Once connected, your checkout will automatically be live under your own domain.
