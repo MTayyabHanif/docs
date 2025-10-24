@@ -41,7 +41,7 @@ title: "10. Connect Subdomain"
 <ResponseField>
   ## 10.3 Connecting a Shopify domain
 
-  If your domain is managed inside Shopify, follow these steps to connect your **Subdomain**.
+  If your domain is hosted on Shopify, follow the steps below.
 </ResponseField>
 
 <ResponseField>
@@ -59,7 +59,7 @@ title: "10. Connect Subdomain"
 </ResponseField>
 
 <ResponseField>
-  ### 2. Create a subdomain (CNAME record)
+  ### 2. Create a  CNAME record
 
   <Info>
     1. Click **add custom record.**
@@ -68,14 +68,13 @@ title: "10. Connect Subdomain"
     ![CNAME RECORD2.png](/images/CNAMERECORD2.png)
   </Info>
   <Info>
-    3. Add a new **CNAME record** with the following values
+    3. Add a new **CNAME record** provided in step **10.3**
 
-    <Tip>
-      |                |                           |
-      | -------------- | ------------------------- |
-      | **Name:**      | checkout                  |
-      | **Points to:** | in.saascustomdomains.com. |
-    </Tip>
+    <Note>
+      **Example:**
+
+      ![Example-CNAME.png](/images/Example-CNAME.png)
+    </Note>
     4. Fill in the **fields** and click **Confirm**.
 
     ![CNAME RECORD 1.png](/images/CNAMERECORD1.png)
@@ -84,11 +83,9 @@ title: "10. Connect Subdomain"
     ![CNAME RECORD FINISHED.png](/images/CNAMERECORDFINISHED.png)
   </Info>
   <Warning>
-    **Common mistake to avoid:**
+    **Tip: **Common mistake to avoid
 
-    \
-    **Do not** point your **CNAME** to your main website domain (for example **yourstore.com**).\
-    It must point to **in.saascustomdomains.com**, otherwise your checkout **will not work.**
+    Do not point your **CNAME **to your main website domain (for example, [yourstore.com](http://yourstore.com)). It must point to **in.saascustomdomains.com**, otherwise your checkout will not work.
   </Warning>
 </ResponseField>
 
@@ -103,48 +100,38 @@ title: "10. Connect Subdomain"
 </ResponseField>
 
 <ResponseField>
-  ### 10.4.1 Open DNS management
+  ### 1. Open DNS management
 
-  - Go to https://www.godaddy.com/ and log in.
-  - From the top menu, click your name and choose My products.
-  - Under Domains, select your active domain and click DNS.
+  1. Go to https://www.godaddy.com/ and **log in** .
+  2. From the top menu, click your name and choose **My products**.
+  3. Under **Domains**, select your active domain and click **DNS**.
 
-  ![GoDaddy DNS dashboard](IMAGE_URL_GODADDY_DNS)
+  ![products-DNS.png](/images/products-DNS.png)
 </ResponseField>
 
 <ResponseField>
-  ### 10.4.2 Add a CNAME record
+  ### 2. Add a CNAME record
 
   <Info>
-    - In the DNS records section, click Add.
-    - Choose CNAME as the record type.
-    - Fill in the following fields:
+    1. In the **DNS records** section, click **Add**.
+    2. Choose **CNAME** as the record type.
+    3. Add a new **CNAME record** provided in step \*\*10.3 \*\*and click **Save.**
+    4. Now go back to your Checky Pro dashboard and click **Verify.**
+
+    <Note>
+      **Example:**
+
+      ![Example-CNAME.png](/images/Example-CNAME.png)
+    </Note>
+    ![download.png](/images/download.png)
   </Info>
-  <Tip>
-    | Field     | Value                  |
-    | --------- | ---------------------- |
-    | Type      | CNAME                  |
-    | Name      | checkout               |
-    | Points to | checkout.checkypro.com |
-    | TTL       | Default or automatic   |
-  </Tip>
-  ![GoDaddy CNAME record creation](IMAGE_URL_GODADDY_CNAME)
-
-  **Tip:** Keep DNS clean\
-  If you already have an old “checkout” record in your DNS, remove or replace it before adding the new CNAME.\
-  Duplicate records can cause conflicts and prevent verification.
-</ResponseField>
-
-<ResponseField>
-  ### 10.4.3 Save and verify
-
-  - Click Save to confirm your changes.
-  - Wait for DNS propagation — this usually happens within minutes.
-  - Go to your Checky Pro dashboard → Settings → Checkout domain.
-  - Enter your subdomain (for example checkout.yourstore.com).
-  - Click Verify connection.
-
-  ![Successful verification](IMAGE_URL_VERIFIED)
+  <Warning>
+    **Tip:** Keep **DNS **clean\
+    \
+    If you already have an old **“checkout**” record in your **DNS**, remove or replace it before adding the new **CNAME**.\
+    Duplicate records can cause conflicts and prevent verification.
+  </Warning>
+  ### 
 </ResponseField>
 
 <ResponseField>
