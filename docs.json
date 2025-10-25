@@ -91,14 +91,14 @@
              "group": "KYC & KYB",
             "expanded": true,
             "pages": [
-              "kyc-kyb/Website-requirements",
-              "kyc-kyb/Proof-of-identity",
-              "kyc-kyb/Proof-of-address",
-              "kyc-kyb/Proof-of-bank-account",
-              "kyc-kyb/Proof-of-domain",
-              "kyc-kyb/Company-register-extract",
-              "kyc-kyb/Supplier-history",
-              "kyc-kyb/Processing-history"
+              "KYCKYB/Website-requirements",
+              "KYCKYB/Proof-of-identity",
+              "KYCKYB/Proof-of-address",
+              "KYCKYB/Proof-of-bank-account",
+              "KYCKYB/Proof-of-domain",
+              "KYCKYB/Company-register-extract",
+              "KYCKYB/Supplier-history",
+              "KYCKYB/Processing-history"
               ]
           }
         ]
