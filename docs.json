@@ -8,14 +8,12 @@
     "dark": "#6356fe"
   },
   "favicon": "/favicon.png",
-
   "navigation": {
     "drilldown": false,
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
-          
           {
             "group": "About Checky Pro",
             "expanded": true,
@@ -28,7 +26,6 @@
               "About/Transparency-support"
             ]
           },
-          
           {
             "group": "Getting started",
             "expanded": true,
@@ -40,7 +37,7 @@
               "getting-started/Next-steps"
             ]
           },
-           {
+          {
             "group": "Integrations",
             "expanded": true,
             "pages": [
@@ -51,10 +48,9 @@
               "Integrations/Pixels",
               "Integrations/Troubleshooting",
               "Integrations/FAQ"
-                          ]
-          },  
-          
-                      {
+            ]
+          },
+          {
             "group": "Checkout",
             "expanded": true,
             "pages": [
@@ -65,11 +61,9 @@
               "Checkout/Reviewbanner",
               "Checkout/Troubleshooting",
               "Checkout/FAQ"
-                          ]
+            ]
           },
-           
-          
-                      {
+          {
             "group": "Payments",
             "expanded": true,
             "pages": [
@@ -84,22 +78,20 @@
               "Payments/Multicurrency",
               "Payments/Troubleshooting",
               "Payments/FAQ"
-                          ]
+            ]
           },
-        
-           {
-             "group": "KYC & KYB",
+          {
+            "group": "KYC & KYB",
             "expanded": true,
             "pages": [
               "KYCKYB/Website-requirements",
               "KYCKYB/Proof-of-identity",
               "KYCKYB/Proof-of-address",
-              "KYCKYB/Proof-of-bank-account",
               "KYCKYB/Proof-of-domain",
               "KYCKYB/Company-register-extract",
               "KYCKYB/Supplier-history",
               "KYCKYB/Processing-history"
-              ]
+            ]
           }
         ]
       }
@@ -108,12 +100,10 @@
       "anchors": []
     }
   },
-
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
   },
-
   "navbar": {
     "links": [
       {
@@ -127,7 +117,6 @@
       "href": "https://app.checkypro.com/dashboard"
     }
   },
-
   "contextual": {
     "options": [
       "copy",
@@ -141,5 +130,3 @@
     ]
   }
 }
-
-          
