@@ -86,6 +86,7 @@
             "group": "KYC & KYB",
             "expanded": true,
             "pages": [
+              "KYCKYB/Documentation-overview",
               "KYCKYB/Website-requirements",
               "KYCKYB/Proof-of-identity",
               "KYCKYB/Proof-of-address",
